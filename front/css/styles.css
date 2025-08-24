@@ -6,5 +6,36 @@
 }
 
 /* Tipografia */
+h2 {
+  margin: 15px;
+  letter-spacing: 3px;
+  font-family: "Poppins", sans-serif;
+}
+
+.homeOfertas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  margin: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.homeOfertas > article {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  display: flex;
+}
+
+.homeOfertas > article img {
+  max-width: 100%;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+.homeOfertas .text {
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
 
 /*# sourceMappingURL=styles.css.map */
