@@ -5,11 +5,12 @@
   padding: 0;
 }
 
-/* Tipografia */
-h2 {
+main h2 {
   margin: 15px;
   letter-spacing: 3px;
   font-family: "Poppins", sans-serif;
+  color: #013237;
+  font-weight: bold;
 }
 
 .homeOfertas {
@@ -28,14 +29,33 @@ h2 {
 }
 
 .homeOfertas > article img {
-  max-width: 100%;
+  width: 60%;
+  height: 60%;
   vertical-align: middle;
   justify-content: center;
+  margin: 5px;
 }
 
 .homeOfertas .text {
-  padding: 20px;
   font-family: "Poppins", sans-serif;
+  color: #013237;
 }
+
+.homeOfertas .text p {
+  color: #4CA771;
+  text-align: left;
+  font-size: 12px;
+  margin: 5px;
+}
+
+.homeOfertas .text a {
+  font-size: 13px;
+  background-color: #013237;
+  border: #EAF9E7;
+  font-weight: bold;
+  margin: 8px;
+}
+
+/* Tipografia */
 
 /*# sourceMappingURL=styles.css.map */
