@@ -1,9 +1,9 @@
 
-
+/*Estilos de Cards de la Home*/
 
 main h2 {
     margin: 15px;
-    letter-spacing: 3px;
+    letter-spacing: .125rem;
     font-family: "Poppins", sans-serif;
     color:#013237;
     font-weight: bold;
@@ -16,7 +16,12 @@ main h2 {
     align-items: stretch;
     margin: 15px;
     font-family: "Poppins", sans-serif;
-  
+
+}
+
+.homeOfertas .text h4{
+    font-size: .9375rem;
+    margin: .9375rem;
 }
 
 .homeOfertas > article {
@@ -42,7 +47,7 @@ main h2 {
 .homeOfertas .text p {
     color:#4CA771;
     text-align: left;
-    font-size: 12px;
+    font-size: .75rem;
     margin: 5px;
     
 }
